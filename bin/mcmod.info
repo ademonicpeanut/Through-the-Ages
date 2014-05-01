@@ -1,0 +1,19 @@
+[
+{
+"modid": "tta",
+"name": "Through the Ages",
+"description": "Step into the footsteps of our ancenstors and create history!",
+"version": "",
+"credits": "Mod creators are ademononicpeanut ans UndifindeGuy",
+"logoFile": "",
+"mcversion": "",
+"url": "",
+"updateUrl": "",
+"authors": [ "ademonicpeanut, UndefinedGuy, thelegendarypie, others" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+"mod_MinecraftForge"
+]
+}
+]
