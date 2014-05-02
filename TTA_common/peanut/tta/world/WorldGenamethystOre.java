@@ -22,7 +22,7 @@ public class WorldGenamethystOre implements IWorldGenerator {
 
 	private void generateSurface(World world, Random random, int blockX, int blockZ) {
 		
-		for(int i = 0; i < 6; i++){
+		for(int i = 0; i < 8; i++){
 			int Xcoord = blockX + random.nextInt(16);
 			int Ycoord = random.nextInt(36);
 			int Zcoord = blockZ + random.nextInt(16);

@@ -22,12 +22,12 @@ public class WorldGenrubyOre implements IWorldGenerator {
 
 	private void generateSurface(World world, Random random, int blockX, int blockZ) {
 		
-		for(int i = 0; i < 7.5; i++){
+		for(int i = 0; i < 6; i++){
 			int Xcoord = blockX + random.nextInt(16);
 			int Ycoord = random.nextInt(16);
 			int Zcoord = blockZ + random.nextInt(16);
 			
-			new WorldGenMinable(ModBlocks.rubyOre.blockID, 6).generate(world, random, Xcoord, Ycoord, Zcoord);
+			new WorldGenMinable(ModBlocks.rubyOre.blockID, 4).generate(world, random, Xcoord, Ycoord, Zcoord);
 		}
 		
 	}

@@ -11,7 +11,7 @@ public class ItembronzeSword extends ItemSword {
 public ItembronzeSword(){
 		
 		super(1317, ToolMaterials.toolBronze);
-		this.setCreativeTab(CreactiveTabs.TTA_TABTOOLS);
+		this.setCreativeTab(CreactiveTabs.TTA_TABCOMBAT);
 	}
 	@SideOnly(Side.CLIENT)
 	public void registerIcons(IconRegister iconRegister){

@@ -22,7 +22,7 @@ public class WorldGensapphireOre implements IWorldGenerator {
 
 	private void generateSurface(World world, Random random, int blockX, int blockZ) {
 		
-		for(int i = 0; i < 7.8; i++){
+		for(int i = 0; i < 7; i++){
 			int Xcoord = blockX + random.nextInt(16);
 			int Ycoord = random.nextInt(24);
 			int Zcoord = blockZ + random.nextInt(16);

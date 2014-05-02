@@ -37,4 +37,16 @@ public class CreactiveTabs {
 			return "TtA Tools";
 		}
 	};
+public static final CreativeTabs TTA_TABCOMBAT = new CreativeTabs(Reference.MOD_ID){
+		
+		@Override
+		public Item getTabIconItem(){
+			return ModItems.bronzeSword;
+		}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public String getTranslatedTabLabel(){
+			return "TtA Combat";
+		}
+	};
 }

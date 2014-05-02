@@ -11,27 +11,28 @@ import net.minecraft.item.Item;
 
 public class ModBlocks {
 	
-	public static final Block copperOre =  new peanut.tta.block.BlockcopperOre().setUnlocalizedName("Cuprite");
-	public static final Block tinOre = new peanut.tta.block.BlocktinOre().setUnlocalizedName("Cassiterite");
-	public static final Block silverOre = new peanut.tta.block.BlocksilverOre().setUnlocalizedName("Argentite");
-	public static final Block leadOre = new peanut.tta.block.BlockleadOre().setUnlocalizedName("Pyrite");
-	public static final Block aluminumOre = new peanut.tta.block.BlockaluminumOre().setUnlocalizedName("Bauxite");
-	public static final Block titaniumOre = new peanut.tta.block.BlocktitaniumOre().setUnlocalizedName("Ilmenite");
-	public static final Block uraniumOre = new peanut.tta.block.BlockuraniumOre().setUnlocalizedName("Uranite");
-	public static final Block cobaltOre = new peanut.tta.block.BlockcobaltOre().setUnlocalizedName("Cobalite");
-	public static final Block magnesiumOre = new peanut.tta.block.BlockmagnesiumOre().setUnlocalizedName("Dolomite");
-	public static final Block rubyOre = new peanut.tta.block.BlockrubyOre().setUnlocalizedName("Ruby ore");
-	public static final Block sapphireOre = new peanut.tta.block.BlocksapphireOre().setUnlocalizedName("Sapphire ore");
-	public static final Block amethystOre = new peanut.tta.block.BlockamethystOre().setUnlocalizedName("Amethyst Ore");
-	public static final Block copperBlock = new peanut.tta.block.BlockcopperBlock().setUnlocalizedName("Copper Block");
-	public static final Block tinBlock = new peanut.tta.block.BlocktinBlock().setUnlocalizedName("Tin Block");
-	public static final Block silverBlock = new peanut.tta.block.BlocksilverBlock().setUnlocalizedName("Silver Block");
-	public static final Block leadBlock = new peanut.tta.block.BlockleadBlock().setUnlocalizedName("Lead Block");
-	public static final Block aluminumBlock = new peanut.tta.block.BlockaluminumBlock().setUnlocalizedName("Aluminum Block");
-	public static final Block titaniumBlock = new peanut.tta.block.BlocktitaniumBlock().setUnlocalizedName("Titanium Block");
-	public static final Block uraniumBlock = new peanut.tta.block.BlockuraniumBlock().setUnlocalizedName("Uranium Block");
-	public static final Block cobaltBlock = new peanut.tta.block.BlockcobaltBlock().setUnlocalizedName("Cobalt Block");
-	public static final Block magnesiumBlock = new peanut.tta.block.BlockmagnesiumBlock().setUnlocalizedName("Magnesium Block");
+	public static final Block copperOre =  new BlockcopperOre().setUnlocalizedName("Cuprite");
+	public static final Block tinOre = new BlocktinOre().setUnlocalizedName("Cassiterite");
+	public static final Block silverOre = new BlocksilverOre().setUnlocalizedName("Argentite");
+	public static final Block leadOre = new BlockleadOre().setUnlocalizedName("Pyrite");
+	public static final Block aluminumOre = new BlockaluminumOre().setUnlocalizedName("Bauxite");
+	public static final Block titaniumOre = new BlocktitaniumOre().setUnlocalizedName("Ilmenite");
+	public static final Block uraniumOre = new BlockuraniumOre().setUnlocalizedName("Uranite");
+	public static final Block cobaltOre = new BlockcobaltOre().setUnlocalizedName("Cobalite");
+	public static final Block magnesiumOre = new BlockmagnesiumOre().setUnlocalizedName("Dolomite");
+	public static final Block rubyOre = new BlockrubyOre().setUnlocalizedName("Ruby ore");
+	public static final Block sapphireOre = new BlocksapphireOre().setUnlocalizedName("Sapphire ore");
+	public static final Block amethystOre = new BlockamethystOre().setUnlocalizedName("Amethyst Ore");
+	public static final Block copperBlock = new BlockcopperBlock().setUnlocalizedName("Copper Block");
+	public static final Block tinBlock = new BlocktinBlock().setUnlocalizedName("Tin Block");
+	public static final Block silverBlock = new BlocksilverBlock().setUnlocalizedName("Silver Block");
+	public static final Block leadBlock = new BlockleadBlock().setUnlocalizedName("Lead Block");
+	public static final Block aluminumBlock = new BlockaluminumBlock().setUnlocalizedName("Aluminum Block");
+	public static final Block titaniumBlock = new BlocktitaniumBlock().setUnlocalizedName("Titanium Block");
+	public static final Block uraniumBlock = new BlockuraniumBlock().setUnlocalizedName("Uranium Block");
+	public static final Block cobaltBlock = new BlockcobaltBlock().setUnlocalizedName("Cobalt Block");
+	public static final Block magnesiumBlock = new BlockmagnesiumBlock().setUnlocalizedName("Magnesium Block");
+	public static final Block bronzeBlock = new BlockbronzeBlock().setUnlocalizedName("Bronze Block");
 	
 	
 
@@ -59,6 +60,7 @@ public static void init(){
 	GameRegistry.registerBlock(uraniumBlock, Names.Blocks.URANIUM_BLOCK);
 	GameRegistry.registerBlock(cobaltBlock, Names.Blocks.COBALT_BLOCK);
 	GameRegistry.registerBlock(magnesiumBlock, Names.Blocks.MAGNESIUM_BLOCK);
+	GameRegistry.registerBlock(bronzeBlock, Names.Blocks.BRONZE_BLOCK);
 	LanguageRegistry.addName(copperOre, "Cuprite");
 	LanguageRegistry.addName(tinOre, "Cassiterite");
 	LanguageRegistry.addName(silverOre, "Argentite");
@@ -80,5 +82,6 @@ public static void init(){
 	LanguageRegistry.addName(uraniumBlock, "Uranium Block");
 	LanguageRegistry.addName(cobaltBlock, "Cobalt Block");
 	LanguageRegistry.addName(magnesiumBlock, "Magnesium Block");
+	LanguageRegistry.addName(bronzeBlock, "Bronze Block");
 	}
 }

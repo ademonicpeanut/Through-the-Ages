@@ -1,10 +1,9 @@
 package peanut.tta.item;
 
+import net.minecraft.item.Item;
 import peanut.tta.lib.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
-import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 
 public class ModItems {
 	
@@ -27,6 +26,10 @@ public class ModItems {
 	public static Item bronzeAxe = new ItembronzeAxe().setUnlocalizedName("Bronze Axe");
 	public static Item bronzeHoe = new ItembronzeHoe().setUnlocalizedName("Bronze Hoe");
 	public static Item bronzeSword = new ItembronzeSword().setUnlocalizedName("Bronze Sword");
+	public static Item bronzeHelmet = new ItembronzeSet(1319, ToolMaterials.armorBronze, 0, 0, "BRONZE").setUnlocalizedName("Bronze Helmet");
+	public static Item bronzeBody = new ItembronzeSet(1320, ToolMaterials.armorBronze, 0, 1, "BRONZE").setUnlocalizedName("Bronze Body");
+	public static Item bronzeLeggings = new ItembronzeSet(1321, ToolMaterials.armorBronze, 0, 2, "BRONZE").setUnlocalizedName("Bronze Leggings");
+	public static Item bronzeBoots = new ItembronzeSet(1322, ToolMaterials.armorBronze, 0, 3, "BRONZE").setUnlocalizedName("Bronze Boots");
 	
 	
 	public static void init(){
@@ -50,6 +53,10 @@ public class ModItems {
 		GameRegistry.registerItem(bronzeAxe, Names.Items.BRONZE_AXE);
 		GameRegistry.registerItem(bronzeHoe, Names.Items.BRONZE_HOE);
 		GameRegistry.registerItem(bronzeSword, Names.Items.BRONZE_SWORD);
+		GameRegistry.registerItem(bronzeHelmet, Names.Items.BRONZE_HELMET);
+		GameRegistry.registerItem(bronzeBody, Names.Items.BRONZE_BODY);
+		GameRegistry.registerItem(bronzeLeggings, Names.Items.BRONZE_LEGGINGS);
+		GameRegistry.registerItem(bronzeBoots, Names.Items.BRONZE_BOOTS);
 		LanguageRegistry.addName(copperIngot, "Copper Ingot");
 		LanguageRegistry.addName(tinIngot, "Tin Ingot");
 		LanguageRegistry.addName(silverIngot, "Silver Ingot");
@@ -69,6 +76,10 @@ public class ModItems {
 		LanguageRegistry.addName(bronzeAxe, "Bronze Axe");
 		LanguageRegistry.addName(bronzeHoe, "Bronze Hoe");
 		LanguageRegistry.addName(bronzeSword, "Bronze Sword");
+		LanguageRegistry.addName(bronzeHelmet, "Bronze Helmet");
+		LanguageRegistry.addName(bronzeBody, "Bronze Chestplate");
+		LanguageRegistry.addName(bronzeLeggings, "Bronze Leggnings");
+		LanguageRegistry.addName(bronzeBoots, "Bronze Boots");
 		}
 	}
 
