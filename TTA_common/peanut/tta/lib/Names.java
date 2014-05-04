@@ -25,6 +25,7 @@ public class Names {
 		public static final String COBALT_BLOCK = "Cobalt Block";
 		public static final String MAGNESIUM_BLOCK = "Magnesium Block";
 		public static final String BRONZE_BLOCK = "Bronze Block";
+		public static final String RESEARCHTABLE_BLOCK = "Research Table";
 	}
 
 	public static class Items{
@@ -54,6 +55,7 @@ public class Names {
 		public static final String BRONZE_BODY = "Bronze Body";
 		public static final String BRONZE_LEGGINGS = "Bronze Leggings";
 		public static final String BRONZE_BOOTS = "Bronze Boots";
+		public static final String RESEARCHTABLE_ITEM = "Research Table";
 	}
 
 }

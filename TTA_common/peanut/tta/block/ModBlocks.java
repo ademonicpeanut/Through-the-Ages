@@ -33,6 +33,7 @@ public class ModBlocks {
 	public static final Block cobaltBlock = new BlockcobaltBlock().setUnlocalizedName("Cobalt Block");
 	public static final Block magnesiumBlock = new BlockmagnesiumBlock().setUnlocalizedName("Magnesium Block");
 	public static final Block bronzeBlock = new BlockbronzeBlock().setUnlocalizedName("Bronze Block");
+    public static final Block researchTable = new BlockresearchTable().setUnlocalizedName("Research Table");
 	
 	
 
@@ -61,6 +62,7 @@ public static void init(){
 	GameRegistry.registerBlock(cobaltBlock, Names.Blocks.COBALT_BLOCK);
 	GameRegistry.registerBlock(magnesiumBlock, Names.Blocks.MAGNESIUM_BLOCK);
 	GameRegistry.registerBlock(bronzeBlock, Names.Blocks.BRONZE_BLOCK);
+	GameRegistry.registerBlock(researchTable, Names.Blocks.RESEARCHTABLE_BLOCK);
 	LanguageRegistry.addName(copperOre, "Cuprite");
 	LanguageRegistry.addName(tinOre, "Cassiterite");
 	LanguageRegistry.addName(silverOre, "Argentite");
@@ -83,5 +85,6 @@ public static void init(){
 	LanguageRegistry.addName(cobaltBlock, "Cobalt Block");
 	LanguageRegistry.addName(magnesiumBlock, "Magnesium Block");
 	LanguageRegistry.addName(bronzeBlock, "Bronze Block");
+	LanguageRegistry.addName(researchTable, "Research Table");
 	}
 }
